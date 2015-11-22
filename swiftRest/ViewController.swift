@@ -103,6 +103,7 @@ class ViewController: UIViewController {
     func updatePostLabel(text:String){
         self.postResultLabel.text = "Post :" + text
         print("hello world")
+        print("hello tianming")
     }
 }
 
