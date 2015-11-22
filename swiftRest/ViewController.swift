@@ -98,10 +98,12 @@ class ViewController: UIViewController {
     //MARK: - Methods to update the UI immediately
     func updateIPLabel(text:String){
         self.ipLabel.text = "Your IP is" + text
+        print("hello Chao")
     }
     
     func updatePostLabel(text:String){
         self.postResultLabel.text = "Post :" + text
+        
     }
 }
 
