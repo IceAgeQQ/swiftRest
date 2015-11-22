@@ -4,7 +4,7 @@
 //
 //  Created by Chao Xu on 15/11/21.
 //  Copyright © 2015年 Chao Xu. All rights reserved.
-//
+// this is chao
 
 import UIKit
 
@@ -103,7 +103,8 @@ class ViewController: UIViewController {
     
     func updatePostLabel(text:String){
         self.postResultLabel.text = "Post :" + text
-        
+        print("hello world")
+
     }
 }
 
